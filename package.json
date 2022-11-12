@@ -1,0 +1,22 @@
+{
+  "name": "vite-javascript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "yarn build && npx web3sdkio@latest upload dist"
+  },
+  "dependencies": {
+    "@web3sdkio/react": "^3",
+    "@web3sdkio/sdk": "^3",
+    "ethers": "^5.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2",
+    "vite": "^3"
+  }
+}
